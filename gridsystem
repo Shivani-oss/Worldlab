@@ -1,0 +1,65 @@
+!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href='bootstrap/bootstrap.min.css'>
+    <link rel="stylesheet" href='fontawesome-free-5.9.0-web/css/all.css'>
+    <!----Our Custom Style Sheet-->
+    <link rel="stylesheet" href='./css/style.css'>
+    <!---
+    xl<576 |  576<sm<768 | 768<md<992 | 992<lg<1200 | 1200<xl
+    -->
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Bootstrap Grid System</h1>
+    <div class="container mycontainer ">
+      <div class="row myrows">
+        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 mycols">
+          <h3>1</h3>
+      </div>
+        <div class="col-xl-2 col-lg-2 col-md-4  col-sm-6 mycols">
+            <h3>2</h3>
+        </div>
+        <div class="col-xl-2 col-lg-2  col-md-4  col-sm-6 mycols">
+            <h3>2</h3>
+        </div>
+        <div class="col-xl-2 col-lg-2  col-md-4 col-sm-6 mycols">
+            <h3>2</h3>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 mycols">
+            <h3>2</h3>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 mycols">
+            <h3>2</h3>
+        </div>
+        
+        
+      </div>
+    </div>
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src='bootstrap/jquery-3.3.1.slim.min.js'></script>
+    <script src='bootstrap/popper.min.js'></script>
+    <script src='bootstrap/bootstrap.min.js'></script>
+  </body>
+</html>
+
+
+css- .mycontainer{
+
+    background-color:aqua;
+}
+.myrows{
+    border: 3px solid green;
+    padding: 5px;
+}
+.mycols{
+    border: 3px solid red;
+}

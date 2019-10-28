@@ -1,0 +1,104 @@
+#topheader{
+
+    border-bottom: 1px solid #ebebeb;
+
+}
+#topheader a{
+    color:#2c3e50;
+    font-weight:600;
+    font-size:0.89rem;
+    font-style: normal;
+}
+.container-fluid{
+   padding-left:0;
+   padding-right:0;
+   border-block-end:silver;
+}
+
+nav ul li a{
+    font-size:1.1em;
+    font-weight:600;
+    outline-color:#ffffff;
+}
+/* Start:Footer*/
+.full-footer{
+    background-color:#0062cc;
+   
+    width:100%;
+
+    }
+.top-footer h3{
+    font-size: 20px;
+    color:antiquewhite;
+  
+}
+.style{
+    color:antiquewhite;
+    padding: 5px;
+    margin:5px;
+}
+
+.bottom-footer{
+    background-color:#EE5A24;
+}
+.bottom-footer p{
+    color: antiquewhite; 
+}
+/* -----------------------------------------HOME PAGE-------------- */
+/* first section */
+.top-hero-section{
+
+color: #2d3436;
+border: 2px solid #ffffff;
+}
+
+/* second section */
+.qualities-img{
+    width:150px;
+}
+/* third section */
+.requirements-section{
+  background-color: #0062cc;
+  color:white;
+ 
+  
+}
+/* fifth section */
+.newsletter{
+    background-color: #0062cc;
+    color:white;
+
+}
+.newsletter .form-control{
+    height:50px;
+    border-color:transparent;
+    border-radius: 20px 0 0 20px;
+}
+.newsletter .btn{
+  min-height: 50px;
+  border-radius: 0 20px 20px 0;
+  background:#2d3436;
+  color:white;  
+}
+/* -----------------------------------------HOME PAGE-------------- */
+/* -----------------------------------------ABOUT US-------------- */
+/* first-section */
+.breadcrumbs-section{
+    background-color: #e9ecef;
+}
+/*--------------------------------------ABOUT US-------------------*/
+/*--------------------------------------PROFOLIO------------------*/
+.requirements{
+    background-color:#e9ecef;
+    color: #0c0808;
+    
+}
+/*---------------------------------SERVICES-----------------------*/
+.bar{
+    color:white;
+    font-weight:600;
+    font-size:1.1rem;
+    border-radius:17px;
+    border: 1px solid rgb(42, 99, 156);
+
+}
